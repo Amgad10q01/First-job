@@ -12,8 +12,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: "Testing GitHub Action"
-        run: pwd
+      - name: "pre_Printing Folder Contents"
+        run: ls
       
-      - name: "Testing Printing"
-        run: echo Amgad
+      - usus: actions/checkout@v3
+
+      - name: "Post_Printing Folder Contents"
+        run: ls
