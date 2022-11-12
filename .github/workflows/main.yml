@@ -12,8 +12,8 @@ jobs:
     run-on: ubuntu-latest
 
     steps:
-      - name: 'Testing GitHub Action'
+      - name: "Testing GitHub Action"
         run: pwd
       
-      - name: 'Testing Printing'
+      - name: "Testing Printing"
         run: echo amgad
