@@ -16,4 +16,4 @@ jobs:
         run: pwd
       
       - name: "Testing Printing"
-        run: echo amgad
+        run: echo Amgad
