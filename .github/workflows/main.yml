@@ -15,7 +15,7 @@ jobs:
       - name: "pre_Printing Folder Contents"
         run: ls
       
-      - usus: actions/checkout@v3
+      - uses: actions/checkout@v3
 
       - name: "Post_Printing Folder Contents"
         run: ls
